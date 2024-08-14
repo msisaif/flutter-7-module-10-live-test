@@ -23,14 +23,14 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Text Styling'),
+        title: const Text('Text Styling App'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Text(
-              'Flutter Text Styling',
+              'Text Styling App',
               style: TextStyle(
                 fontSize: 28.0,
                 fontWeight: FontWeight.bold,
@@ -59,7 +59,6 @@ class MyHomePage extends StatelessWidget {
                 'Click Me',
                 style: TextStyle(
                   fontSize: 16.0,
-                  color: Colors.blue,
                 ),
               ),
             ),
